@@ -29,7 +29,8 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
         android:tint="@android:color/white"
+        android:background="@color/colorAccent"
         android:rotation="90"
-        app:srcCompat="@drawable/ic_wave" />
+        app:srcCompat="@drawable/ic_dictate" />
 
 </android.support.design.widget.CoordinatorLayout>
