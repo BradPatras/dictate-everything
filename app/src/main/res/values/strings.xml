@@ -2,4 +2,5 @@
     <string name="app_name">Dictate Everything</string>
     <string name="action_settings">Settings</string>
     <string name="now_dictating">Now dictating</string>
+    <string name="dictating_message">Dictating Message...</string>
 </resources>

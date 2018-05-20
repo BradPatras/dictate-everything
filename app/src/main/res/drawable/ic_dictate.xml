@@ -11,8 +11,8 @@
     <path
         android:pathData=" M 12.111 3.9 L 5 12 L 12.111 20.1 L 12.111 3.9 Z "
         android:strokeLineCap="round"
-        android:strokeColor="#5D5D5D"
-        android:fillColor="#5D5D5D"
+        android:strokeColor="#ffffff"
+        android:fillColor="#ffffff"
         android:strokeWidth="4"
         android:strokeLineJoin="round"/>
     </group>
