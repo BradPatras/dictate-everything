@@ -25,6 +25,11 @@ class DictationController(context: Context) : TextToSpeech.OnInitListener, Utter
         }
     }
 
+    fun destroy() {
+        tts.stop()
+        tts.shutdown()
+    }
+
     override fun onInit(status: Int) {
 
         if (status == TextToSpeech.SUCCESS) {
