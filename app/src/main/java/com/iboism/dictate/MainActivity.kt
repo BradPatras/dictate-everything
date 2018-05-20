@@ -35,6 +35,11 @@ class MainActivity : AppCompatActivity() {
         tts_edit_text.addTextChangedListener(textChanged)
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        dictationController.destroy()
+    }
+
     private fun updateFabVisibility(show: Boolean) {
         if (show) {
             fab.animateShow()

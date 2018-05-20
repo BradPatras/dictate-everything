@@ -38,7 +38,7 @@ class DictateDialogActivity : AppCompatActivity() {
             controller.destroy()
             this.finish()
         }
-        
+
         this.controller = controller
     }
 }
